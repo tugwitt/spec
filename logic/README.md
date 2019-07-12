@@ -13,7 +13,7 @@ we're only going to have to write connectors for the logic stacks. meaning we'd 
 given method of executing compute across BSV, not rebuild BSV's backend.
 
 the benefits of this are pretty clear, but this is the central idea behind backend sovereignty; if the backend we choose
-dissapears tomorrow, the network shouldn't have a second of downtime.
+dissapears tomorrow, the network shouldn't have a second of downtime. the next level to this is shifting backends based off prices at that given time (i.e. switching from BTC to BSV based off fee's).
 
 the connectors really are nothing more than a way to run Atlas code off of that given backend. it will be closer to L2 interaction
 than L1 directly, but there's not much more to it than that. all we need the logic stack for is to actually execute our code,
