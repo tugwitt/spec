@@ -30,6 +30,10 @@ maintaining isomorphism over time (meaning you can always traverse back to previ
 gets represented as a "partial Lie group", which is really a [manifold](https://en.wikipedia.org/wiki/Manifold) that represents a subset [subgroup] of the General Lie Group. even if the General Lie Group isn't fully defined, the manifold is *still* a 
 representation of *the* General Lie Group. 
 
+these manifolds can be represented as an `Atlas` subquery of the General Lie Group. this means the filesystem would have the 
+General Lie Group .at file as the root of the heirarchy, and all states would be .at files representing queries across that
+General Lie Group.
+
 
 ## Network Manager
 
