@@ -6,6 +6,10 @@ variation of a filesystem.
 this will most likely look like a heirarchical filesystem of [.at files](http://liegroups.org/software/documentation/atlasofliegroups-docs/tutorial/video_1A/basics.html#the-basic-at-file)
 that represent the underlying definition of the Lie group representation of the given dataset.
 
+realistically, we could allow for variable backends on the storage aspect as well. as much as i hate it, BSV is the most
+realistic option, but we could say anything; custom Azure Blob/AWS EFS, bitcoin, eth, twitter. our filesystem is just a 
+heirarchical model representation of data. if we maintain that heirarchical model (i.e. maintain it through a symbololic heirarchical tree of the tx hashes [lol]), then there really isn't a difference to us; if we can rebuild the General Lie Group and maintain isomorphism, the system doesn't care how the data is given. 
+
 ## Traditional Solutions
 
 **[this](https://github.com/tugwitt/notes/blob/master/wiki/cs/dbms/DMBS-Overview.md) is a good primer on DBMS's**
