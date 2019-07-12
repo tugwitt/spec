@@ -7,7 +7,7 @@ this is pretty much a dual stack implementation of generalized networks. we assu
 
 - maintain backend sovereignty
 - calc the ODE instead of summing all PDE's
-- all outputted data is fed back into the system
+- must maintain isomorphism across states overtime
 - must maintain [ACID](https://en.wikipedia.org/wiki/ACID) DBMS standards
 
 
