@@ -1,11 +1,14 @@
 # Resources
 
+## Network Dynamics
 
-## Dev
+### ZeroTier
 
-### Kafka
+- [On the Power of Centralization in Distributed Processing](https://arxiv.org/pdf/1203.5026.pdf)
 
-#### LinkedIn
+## Kafka
+
+### LinkedIn
 
 - [Kafka Ecosystem](https://engineering.linkedin.com/blog/2016/04/kafka-ecosystem-at-linkedin)
 - [Kafka at Scale](https://engineering.linkedin.com/kafka/running-kafka-scale)
