@@ -1,5 +1,7 @@
 # Logic Stack
 
+**[SRC](https://github.com/tugwitt/logic)**
+
 the logic stack is far less defined, deliberately so. by definition, *we* do not control the logic stack; we merely use 
 other people's logic stacks. at the end of the day, the issue with how we deal with data currently isn't the logic, it's
 the fact that there's no such thing as a data stack.
