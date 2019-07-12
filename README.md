@@ -5,10 +5,10 @@ this is pretty much a dual stack implementation of generalized networks. we assu
 
 ## Base axioms
 
+- prioritize calculating the ODE instead of summing all PDE's
 - maintain backend sovereignty
-- calc the ODE instead of summing all PDE's
-- must maintain isomorphism across states overtime
-- must maintain [ACID](https://en.wikipedia.org/wiki/ACID) DBMS standards
+- maintain isomorphism across states overtime
+- maintain [ACID](https://en.wikipedia.org/wiki/ACID) DBMS standards
 
 
 ### General Network Structure
