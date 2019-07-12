@@ -20,9 +20,9 @@ the base idea is that we are the network. we own the outer network, SubNet Main.
 **just defining the top layer of the network**
 
 there are really three components:
-- [data stack](./data/)
-- [logic stack](./logic/)
-- [middleware/network manager/OS](./manager/)
+- [data stack](./data/) ([repo](https://github.com/tugwitt/database))
+- [logic stack](./logic/) ([repo](https://github.com/tugwitt/logic))
+- [middleware/network manager/OS](./manager/) ([repo](https://github.com/tugwitt/manager))
 
 #### Data Stack
 
