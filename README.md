@@ -19,9 +19,9 @@ the base idea is that we are the network. we own the outer network, SubNet Main.
 **just defining the top layer of the network**
 
 there are really three components:
-- [data stack](./data/README.md)
-- [logic stack](./logic/README.md)
-- [middleware/network manager/OS](./manager/README.md)
+- [data stack](./data/)
+- [logic stack](./logic/)
+- [middleware/network manager/OS](./manager/)
 
 #### Data Stack
 
