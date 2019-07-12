@@ -35,7 +35,7 @@ the logic stack is nothing more than a pool of compute to use. we just need to s
   - this will look like a lightweight node running on a server. it's really just a node that can run Lie algebra's on a given server (lang doesn't really matter here). probs our initial implementation. 
 - *Urbit*:
   - this will look like an API connector that connects to a given Urbit planet/ship. 
-- *BSV*:
+- *BSV (any chain)*:
   - this will look like an API connector running off Planaria that allows you to pay for compute on the BSV chain from a given wallet
   
 #### Manager
