@@ -21,7 +21,7 @@ the `commit log of records`.
 ### General Lie Group
 
 this is the representation of the underlying "model" of the dataset. initially (before any data is inserted), this will start out as some base representation.
-this state model gets updated as new data is inserted through a kind of "backprop". this is meant to be the general representation of a given dataset, in the same way the e8 Lie group is the general representation of particle physics. 
+this state model gets updated as new data is inserted through a kind of "backprop" (the [Lie derivative](https://en.wikipedia.org/wiki/Lie_derivative)). this is meant to be the general representation of a given dataset, in the same way the e8 Lie group is the general representation of particle physics. 
 
 
 ### Record Commit Log
