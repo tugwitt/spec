@@ -30,4 +30,4 @@ the easiest way to think about it is that anytime you want to update the databas
 the manager uses the existing data representation [Lie group of the dataset] and the logic stack [compute pool] to figure out
 what to change in the filesystem and executes the change. 
 
-this is getting very very similar to [atomic transactions](https://en.wikipedia.org/wiki/Atomicity_(database_systems) in databases.
+this is getting very very similar to [atomic transactions](https://en.wikipedia.org/wiki/Atomicity_(database_systems)) in databases.
