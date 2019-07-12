@@ -31,3 +31,6 @@ the manager uses the existing data representation [Lie group of the dataset] and
 what to change in the filesystem and executes the change. 
 
 this is getting very very similar to [atomic transactions](https://en.wikipedia.org/wiki/Atomicity_(database_systems)) in databases.
+
+it's looking like the data stack has an opportunity for a variable storage backend as well. this is really just the location
+of the filesystem.
