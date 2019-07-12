@@ -8,6 +8,7 @@ so this module has two real pieces:
 - the network manager ~ [a (custom) ZeroTier offshoot](https://arxiv.org/pdf/1203.5026.pdf)
 
 eventually, these two *will* merge into one module; we're doing this to avoid building a custom Kafka implementation right now.
+i'm thinking of forking the `git` implementation for .at files (at a parsing line by line level) to act as our custom implementation eventually. 
 
 ## Event Controller
 
