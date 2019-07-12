@@ -13,3 +13,5 @@ that represent the underlying definition of the Lie group representation of the 
 ### SQL Server
 
 SQL Server uses data files as it's core data storage mechanism. [SQL Server Internals](https://www.red-gate.com/simple-talk/sql/database-administration/sql-server-storage-internals-101/)
+
+>  A record, also known as a row, is the smallest storage structure in a SQL Server data file. Each row in a table is stored as an individual record on disk. Not only table data is stored as records, but also indexes, metadata, database boot structures and so forth. However, we’ll concentrate on only the most common and important record type, namely the data record, which shares the same format as the index record. 
