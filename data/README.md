@@ -21,7 +21,7 @@ the third layer is where user interaction takes place. this looks like robust AP
 and update the actual database [filesystem]. this is pretty much the *full language layer*.
 
 
-## The Filesystem
+## [The Filesystem](./filesystem)
 
 though the stack solves most of our problems, we still have to have a place that we store our actual data in.
 this is the most unclear part as of now, it's most likely going to be a rough filesystem to begin with.
