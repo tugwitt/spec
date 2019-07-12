@@ -36,4 +36,12 @@ representation of *the* General Lie Group.
 this handles the `SubNet Main` network and all resulting subnets. this is the system that *creates* a subnet for a user
 and manages the equilibrium within each actual subnet. 
 
+the network manager acts as our centralized processing unit, as well as the maintainer of the network (though maintenence may end up being a parent module). this does the heaviest computations that are done at relatively predictable [non-instantaneous]
+rates compared to the rate of records being updated. the distributed processing handles the smaller, instantanous logic.
+
+the fundamental difference between our approach and the [approach](https://arxiv.org/pdf/1203.5026.pdf) Xu et al. took is that
+we aren't focusing so much on the equilibrium as the fact that the degree of centralization *can* be varied. the reason the 
+equilibrium component comes in is when you want to optimize the system to utilize the centralized compute when it's
+being underutilized elsewhere, and vice versa. this is an implementation for later on, but it is the goal. 
+
 
