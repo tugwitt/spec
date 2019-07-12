@@ -26,7 +26,7 @@ there are really three components:
 
 #### Data Stack
 
-the data stack is really nothing more than a base implementation of a Lie database. our base layer for this is the Lie group package de recommended, [Lie groups](http://liegroups.org/). we will most likely build the second and third layer (and really layer 1.5 as well). 
+the data stack is really nothing more than a base implementation of a Lie database. our base layer for this is the Lie group package de recommended, [Atlas](http://liegroups.org/). we will most likely build the second and third layer (and really layer 1.5 as well). 
 
 #### Logic Stack
 
