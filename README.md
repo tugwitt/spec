@@ -9,18 +9,25 @@ this is pretty much a dual stack implementation of generalized networks. we assu
 - calc the ODE instead of summing all PDE's
 - all outputted data is fed back into the system
 
-## General Structure
+
+### General Network Structure
+
+the base idea is that we are the network. we own the outer network, SubNet Main. we have a more robust network manager on our outer layer. each subnet on our network than has the same base structure (data, logic, manager) but can be varied for the requirements of that specific network layer (i.e. user, customer, company, 3rd party, etc). 
+
+### General Structure for an Arbitrary Network Layer
+
+**just defining the top layer of the network**
 
 there are really three components:
 - data stack
 - logic stack
 - middleware/network manager/OS
 
-### Data Stack
+#### Data Stack
 
 the data stack is really nothing more than a base implementation of a Lie database. our base layer for this is the Lie group package de recommended, [Lie groups](http://liegroups.org/). we will most likely build the second and third layer (and really layer 1.5 as well). 
 
-### Logic Stack
+#### Logic Stack
 
 the logic stack is nothing more than a pool of compute to use. we just need to start with one backend, but here's the basic idea for what the connector looks like per backend:
 
@@ -31,6 +38,6 @@ the logic stack is nothing more than a pool of compute to use. we just need to s
 - *BSV*:
   - this will look like an API connector running off Planaria that allows you to pay for compute on the BSV chain from a given wallet
   
-### Manager
+#### Manager
 
 the manager is almost like the backprop agent. it's the thing that's *using* the compute from the logic stack to update our implementation of the data stack (i.e. a new 'row' comes in to be inserted, the manager uses the AWS connector to update the specific Lie group representation for that dataset). the manager can be a kafka agent for starters
