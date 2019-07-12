@@ -20,3 +20,9 @@ dissapears tomorrow, the network shouldn't have a second of downtime. the next l
 the connectors really are nothing more than a way to run Atlas code off of that given backend. it will be closer to L2 interaction
 than L1 directly, but there's not much more to it than that. all we need the logic stack for is to actually execute our code,
 nothing more.
+
+### Isomorphism
+
+because we need to maintain a continuous network topology, the backend of a given network must also be able to support
+the spawning of backends for subnets of that network (or at least a support mechanism to handle the spawning of
+compute engines per subnet)
