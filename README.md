@@ -1,3 +1,7 @@
+update: refer to -> [deos.org](https://deos.org)
+
+no need to build the same thing twice
+
 # spec
 spec for something nameless
 
